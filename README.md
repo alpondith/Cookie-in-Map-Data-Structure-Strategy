@@ -1,30 +1,24 @@
-
-multiauth system by Faisal Ahamed
-## About Project
-Two types of User
-                1.User
-                2.Admin
-Two Database Tabel:
-                1.Users
-                2.Admins
-                
-## Functionality
-
-1.two login page for two types of user
-2. two types of password reset system via email
-
-## Installing package
-
-git clone  https://gitlab.com/faisalahamed/laravel-multiauth-system.git
-composer install
-
-configure .env file
-
-php artisan migrate:fresh --seed
-
-and enjoy.
-
-admin login link: {localhost}/admin
-
-username:admin@xfaisal.com
-password:admin1234
+/*
+* Available Methods Are given Below:
+*
+* addObjectToCookie(key, object);
+* deleteObjectFromCookie(key);
+* updateObjectOfCookie(key, newObject);
+* resetCookie();
+*
+* To read the all the cookie data call 'cookieMap' and for deep data reading use Javascript Map default functions.
+* for example:
+*
+* cookieMap.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
+* cookieMap.has(key) – returns true if the key exists, false otherwise.
+* cookieMap.size – returns the current element count.
+* other reading strategy is give below part of the code as example.
+*
+*
+*
+* important Links:
+* https://javascript.info/map-set
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+* https://www.w3schools.com/js/js_cookies.asp
+* https://www.w3schools.com/js/tryit.asp?filename=tryjs_cookie_username
+* */
