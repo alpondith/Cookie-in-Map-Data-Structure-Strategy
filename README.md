@@ -1,5 +1,5 @@
 
-## Available Methods Are given Below:
+### Available Methods Are given Below:
 
 * addObjectToCookie(key, object);
 * deleteObjectFromCookie(key);
@@ -19,12 +19,16 @@ important Links:
 * https://www.w3schools.com/js/js_cookies.asp
 * https://www.w3schools.com/js/tryit.asp?filename=tryjs_cookie_username
 
+# You can use this in any web project. Just add the script link to your project. 
+
+```
+<script src="cookieMap.js"></script>
+```
 
 
+### Here is some Practice Example
 
-###Here is some Practice Example
-
-#add <br/>
+# add <br/>
 while reading always use key in String format. <br/>
 while adding object key is always converted to string internally. <br/>
 
@@ -42,7 +46,7 @@ console. log("After adding object : ");
 console. log(cookieMap);
 ```
 
-#read <br/>
+# read <br/>
 while reading always use key in String format. <br/>
 while adding object key is always converted to string internally. <br/>
 
@@ -70,7 +74,7 @@ for (var person of cookieMap.entries()) {
 }
 ```
 
-#update <br/>
+# update <br/>
 while reading always use key in String format. <br/> 
 while updating object key is always converted to string internally. <br/>
 
@@ -84,7 +88,7 @@ console.log("After updating object : ");
 console.log(cookieMap);
 ```
 
-#Delete <br/>
+# Delete <br/>
 while deleting always use key in String format. <br/>
 while deleting object key is always converted to string internally. <br/>
 
@@ -97,7 +101,7 @@ console.log("After deleting object : ");
 console.log(cookieMap);
 ```
 
-#reset <br/>
+# reset <br/>
 
 ```
 resetCookie();
