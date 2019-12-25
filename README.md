@@ -22,11 +22,11 @@ important Links:
 
 
 
-##Here is some Practice Example
+###Here is some Practice Example
 
-#add
-while reading always use key in String format
-while adding object key is always converted to string internally
+#add <br/>
+while reading always use key in String format. <br/>
+while adding object key is always converted to string internally. <br/>
 
 ```
 resetCookie();
@@ -42,9 +42,9 @@ console. log("After adding object : ");
 console. log(cookieMap);
 ```
 
-#read
-while reading always use key in String format
-while adding object key is always converted to string internally
+#read <br/>
+while reading always use key in String format. <br/>
+while adding object key is always converted to string internally. <br/>
 
 ```
 console.log('Get Object specific value against a key : firstName is ' + cookieMap.get("33").firstName);
@@ -70,9 +70,9 @@ for (var person of cookieMap.entries()) {
 }
 ```
 
-#update
-while reading always use key in String format 
-while updating object key is always converted to string internally
+#update <br/>
+while reading always use key in String format. <br/> 
+while updating object key is always converted to string internally. <br/>
 
 ```
 resetCookie();
@@ -84,9 +84,9 @@ console.log("After updating object : ");
 console.log(cookieMap);
 ```
 
-#Delete
-while deleting always use key in String format
-while deleting object key is always converted to string internally
+#Delete <br/>
+while deleting always use key in String format. <br/>
+while deleting object key is always converted to string internally. <br/>
 
 ```
 resetCookie();
@@ -97,7 +97,8 @@ console.log("After deleting object : ");
 console.log(cookieMap);
 ```
 
-#reset
+#reset <br/>
+
 ```
 resetCookie();
 ```
