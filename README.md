@@ -1,5 +1,5 @@
 
-### Available Methods Are given Below:
+## Available Methods Are given Below:
 
 * addObjectToCookie(key, object);
 * deleteObjectFromCookie(key);
@@ -19,14 +19,14 @@ important Links:
 * https://www.w3schools.com/js/js_cookies.asp
 * https://www.w3schools.com/js/tryit.asp?filename=tryjs_cookie_username
 
-# You can use this in any web project. Just add the script link to your project. 
+### You can use this in any web project. Just add the script link to your project. 
 
 ```
 <script src="cookieMap.js"></script>
 ```
 
 
-### Here is some Practice Example
+## Here is some Practice Example
 
 # add <br/>
 while reading always use key in String format. <br/>
