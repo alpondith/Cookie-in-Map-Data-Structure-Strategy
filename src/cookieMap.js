@@ -65,9 +65,11 @@ function addObjectToCookie(key , obj) {
     cookieMap.set(key,obj);
     updateCookieFromMap();
     reloadMapFromCookie();
+    return true;
 }
 
 function deleteObjectFromCookie(key) {
+    var status = false;
     if (typeof(key) == "number"){
         key = key.toString()
     }
@@ -75,10 +77,13 @@ function deleteObjectFromCookie(key) {
         cookieMap.delete(key);
         updateCookieFromMap();
         reloadMapFromCookie();
+        status = true;
     }
+    return status;
 }
 
 function updateObjectOfCookie(key, newObject){
+    var status = false;
     if (typeof(key) == "number"){
         key = key.toString()
     }
@@ -87,13 +92,16 @@ function updateObjectOfCookie(key, newObject){
         cookieMap.set(key,newObject);
         updateCookieFromMap();
         reloadMapFromCookie();
+        status = true;
     }
+    return status;
 }
 
 function resetCookie () {
     cookieMap.clear();
     updateCookieFromMap();
     reloadMapFromCookie();
+    return true;
 }
 
 function updateCookieFromMap() {
@@ -131,7 +139,6 @@ function checkCookie() {
         reloadMapFromCookie();
     }
 }
-
 checkCookie();
 
 
